@@ -11,3 +11,14 @@ export interface Feature {
     color: string;
     Preview: () => React.ReactElement;
 }
+
+export interface CodeLine {
+    tokens: { text: string; color: string }[];
+    highlight?: boolean;
+}
+
+export interface CodeBlockProps {
+    tsCode: CodeLine[];
+    jsCode?: CodeLine[];
+    title?: string;
+}

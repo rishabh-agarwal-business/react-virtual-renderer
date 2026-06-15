@@ -1,5 +1,5 @@
 import { TbViewportWide } from "react-icons/tb";
-import { links } from "../constants";
+import { links } from "../../constants";
 import { Link } from "react-router";
 
 const Footer = () => {

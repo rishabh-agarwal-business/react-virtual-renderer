@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import {
-    FaGithub
-} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { Copy, Check, ArrowRight, Play } from "lucide-react";
 import { Link } from "react-router";
 
@@ -34,7 +32,7 @@ function AnimatedGrid() {
                         className="flex items-center gap-3 px-3 py-2 rounded-lg"
                         style={{ background: i % 3 === 0 ? "rgba(59,130,246,0.08)" : "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.04)" }}
                     >
-                        <div className="w-6 h-6 rounded-md flex-shrink-0" style={{ background: `hsl(${i * 30},60%,45%)`, opacity: 0.8 }} />
+                        <div className="w-6 h-6 rounded-md shrink-0" style={{ background: `hsl(${i * 30},60%,45%)`, opacity: 0.8 }} />
                         <div className="flex-1 space-y-1">
                             <div className="h-2 rounded-full bg-zinc-700" style={{ width: `${55 + (i * 13) % 40}%` }} />
                             <div className="h-1.5 rounded-full bg-zinc-800" style={{ width: `${30 + (i * 17) % 30}%` }} />

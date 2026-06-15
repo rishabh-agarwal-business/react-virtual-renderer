@@ -1,8 +1,4 @@
-import Metrics from "../components/Metrices"
-import Hero from "../components/Hero"
-import Features from "../components/Features"
-import Comparison from "../components/Comparison"
-import OpenSource from "../components/OpenSource"
+import { Benchmark, Comparison, Demos, Features, Hero, Metrics, OpenSource } from "../components/sections"
 
 const LandingPage = () => {
     return (
@@ -10,8 +6,8 @@ const LandingPage = () => {
             <Hero />
             <Metrics />
             <Features />
-            {/* Demos
-            BenchMark */}
+            <Demos />
+            <Benchmark />
             <Comparison />
             <OpenSource />
         </>

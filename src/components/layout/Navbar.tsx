@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { TbMenu2, TbX, TbPackage, TbBolt } from "react-icons/tb";
-import {
-    FaGithub,
-} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router";
-import { navLinks } from "../constants";
+import { navLinks } from "../../constants";
 import { motion, AnimatePresence } from "motion/react";
 
 const Navbar = () => {
